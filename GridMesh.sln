@@ -1,0 +1,80 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GridMesh.ProsumerRegistry.Presentation", "GridMesh.ProsumerRegistry.Presentation\GridMesh.ProsumerRegistry.Presentation.csproj", "{178588BE-94E8-47C4-AE4D-B0F335BC2E80}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{30863E4B-7262-4275-B92F-627B60AD43BC}"
+	ProjectSection(SolutionItems) = preProject
+		compose.yaml = compose.yaml
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GridMesh.ProsumerRegistry.Application", "GridMesh.ProsumerRegistry.Application\GridMesh.ProsumerRegistry.Application.csproj", "{E8914711-2E3D-4773-A548-942953FA784C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GridMesh.ProsumerRegistry.Infrastructure", "GridMesh.ProsumerRegistry.Infrastructure\GridMesh.ProsumerRegistry.Infrastructure.csproj", "{E5C8D4CC-69BD-4F5E-9A4F-B9BDFDA4D766}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GridMesh.ProsumerRegistry.Persistance", "GridMesh.ProsumerRegistry.Persistance\GridMesh.ProsumerRegistry.Persistance.csproj", "{24B89495-3D4A-4667-AA84-17D3480CCE55}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GridMesh.ProsumerRegistry.Domain", "GridMesh.ProsumerRegistry.Domain\GridMesh.ProsumerRegistry.Domain.csproj", "{37128CCE-B040-4760-9592-11E62408A72E}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "01_Presentation", "01_Presentation", "{0124463F-6EC0-48E7-8065-35C310B3CF2E}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "02_Application", "02_Application", "{E1838EBF-5A3C-4142-ACC1-4DED6FDD2C24}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "03_Infrastructure", "03_Infrastructure", "{2987BEB4-6533-4D53-BF02-3A7798600D95}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "05_Domain", "05_Domain", "{4E9BADF7-CCFF-4653-869F-4CECC439B27D}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "04_Persistance", "04_Persistance", "{6FCB64EA-99D2-431C-BBEC-7F5F41AF95A3}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "06_IntegrationEvents", "06_IntegrationEvents", "{F321EBEF-FAC5-46C5-802B-BD15ECF3F499}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "07_Worker", "07_Worker", "{E3D2558F-7773-4BFD-B670-6BEDBE1E273F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GridMesh.ProsumerRegistry.IntegrationEvents", "GridMesh.ProsumerRegistry.IntegrationEvents\GridMesh.ProsumerRegistry.IntegrationEvents.csproj", "{D342C6A0-05E6-4E59-8084-1D8C279813F6}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GridMesh.ProsumerRegistry.Worker", "GridMesh.ProsumerRegistry.Worker\GridMesh.ProsumerRegistry.Worker.csproj", "{8408ABEF-A453-44B2-AC25-D8482AE46C99}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{178588BE-94E8-47C4-AE4D-B0F335BC2E80}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{178588BE-94E8-47C4-AE4D-B0F335BC2E80}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{178588BE-94E8-47C4-AE4D-B0F335BC2E80}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{178588BE-94E8-47C4-AE4D-B0F335BC2E80}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E8914711-2E3D-4773-A548-942953FA784C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E8914711-2E3D-4773-A548-942953FA784C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E8914711-2E3D-4773-A548-942953FA784C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E8914711-2E3D-4773-A548-942953FA784C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E5C8D4CC-69BD-4F5E-9A4F-B9BDFDA4D766}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E5C8D4CC-69BD-4F5E-9A4F-B9BDFDA4D766}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E5C8D4CC-69BD-4F5E-9A4F-B9BDFDA4D766}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E5C8D4CC-69BD-4F5E-9A4F-B9BDFDA4D766}.Release|Any CPU.Build.0 = Release|Any CPU
+		{24B89495-3D4A-4667-AA84-17D3480CCE55}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{24B89495-3D4A-4667-AA84-17D3480CCE55}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{24B89495-3D4A-4667-AA84-17D3480CCE55}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{24B89495-3D4A-4667-AA84-17D3480CCE55}.Release|Any CPU.Build.0 = Release|Any CPU
+		{37128CCE-B040-4760-9592-11E62408A72E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{37128CCE-B040-4760-9592-11E62408A72E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{37128CCE-B040-4760-9592-11E62408A72E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{37128CCE-B040-4760-9592-11E62408A72E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D342C6A0-05E6-4E59-8084-1D8C279813F6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D342C6A0-05E6-4E59-8084-1D8C279813F6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D342C6A0-05E6-4E59-8084-1D8C279813F6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D342C6A0-05E6-4E59-8084-1D8C279813F6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8408ABEF-A453-44B2-AC25-D8482AE46C99}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8408ABEF-A453-44B2-AC25-D8482AE46C99}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8408ABEF-A453-44B2-AC25-D8482AE46C99}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8408ABEF-A453-44B2-AC25-D8482AE46C99}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{178588BE-94E8-47C4-AE4D-B0F335BC2E80} = {0124463F-6EC0-48E7-8065-35C310B3CF2E}
+		{E8914711-2E3D-4773-A548-942953FA784C} = {E1838EBF-5A3C-4142-ACC1-4DED6FDD2C24}
+		{E5C8D4CC-69BD-4F5E-9A4F-B9BDFDA4D766} = {2987BEB4-6533-4D53-BF02-3A7798600D95}
+		{37128CCE-B040-4760-9592-11E62408A72E} = {4E9BADF7-CCFF-4653-869F-4CECC439B27D}
+		{24B89495-3D4A-4667-AA84-17D3480CCE55} = {6FCB64EA-99D2-431C-BBEC-7F5F41AF95A3}
+		{D342C6A0-05E6-4E59-8084-1D8C279813F6} = {F321EBEF-FAC5-46C5-802B-BD15ECF3F499}
+		{8408ABEF-A453-44B2-AC25-D8482AE46C99} = {E3D2558F-7773-4BFD-B670-6BEDBE1E273F}
+	EndGlobalSection
+EndGlobal

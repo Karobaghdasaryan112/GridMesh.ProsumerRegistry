@@ -1,0 +1,88 @@
+## ===== .NET / Visual Studio / Rider =====
+[Bb]in/
+[Oo]bj/
+[Oo]ut/
+[Dd]ebug/
+[Rr]elease/
+*.user
+*.userosscache
+*.suo
+*.userprefs
+.vs/
+.vscode/
+.idea/
+*.DotSettings.user
+ 
+## Build results
+[Aa]rtifacts/
+msbuild.log
+msbuild.err
+msbuild.wrn
+ 
+## NuGet
+*.nupkg
+*.snupkg
+**/[Pp]ackages/*
+!**/[Pp]ackages/build/
+.nuget/
+ 
+## Test results
+[Tt]est[Rr]esult*/
+*.trx
+*.coverage
+*.coveragexml
+coverage/
+ 
+## Rider / ReSharper
+_ReSharper*/
+*.[Rr]e[Ss]harper
+*.DotSettings
+ 
+## ===== Secrets & environment-specific config =====
+# Never commit real connection strings, Kafka brokers, or API keys.
+# Keep only appsettings.json (with placeholder values) in source control.
+appsettings.Development.json
+appsettings.Staging.json
+appsettings.Production.json
+appsettings.*.local.json
+*.pfx
+*.key
+*.pem
+.env
+.env.*
+secrets.json
+**/Properties/launchSettings.json
+ 
+## User Secrets (dotnet user-secrets) manifest paths
+**/secrets/
+ 
+## ===== Docker =====
+docker-compose.override.yml
+.docker/
+ 
+## ===== Database / migrations scratch =====
+*.db
+*.sqlite
+*.mdf
+*.ldf
+ 
+## ===== ClickHouse / Kafka local data volumes (if bind-mounted) =====
+**/clickhouse-data/
+**/kafka-data/
+**/zookeeper-data/
+ 
+## ===== OS files =====
+.DS_Store
+Thumbs.db
+desktop.ini
+ 
+## ===== Logs =====
+*.log
+logs/
+ 
+## ===== Misc =====
+*.tmp
+*.bak
+*.swp
+node_modules/
+ 

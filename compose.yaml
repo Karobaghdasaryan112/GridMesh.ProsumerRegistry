@@ -1,0 +1,7 @@
+﻿services:
+  gridmesh.prosumerregistery:
+    image: gridmesh.prosumerregistery
+    build:
+      context: .
+      dockerfile: GridMesh.ProsumerRegistery/Dockerfile
+

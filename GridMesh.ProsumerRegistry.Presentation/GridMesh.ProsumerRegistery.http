@@ -1,0 +1,6 @@
+@GridMesh.ProsumerRegistery_HostAddress = http://localhost:5271
+
+GET {{GridMesh.ProsumerRegistery_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
