@@ -1,0 +1,31 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+    <PropertyGroup>
+        <TargetFramework>net10.0</TargetFramework>
+        <ImplicitUsings>enable</ImplicitUsings>
+        <Nullable>enable</Nullable>
+    </PropertyGroup>
+
+    <ItemGroup>
+      <PackageReference Include="MediatR" Version="14.0.0" />
+      <PackageReference Include="Microsoft.Extensions.Configuration.Abstractions" Version="10.0.0" />
+      <PackageReference Include="Microsoft.Extensions.DependencyInjection.Abstractions" Version="10.0.0" />
+    </ItemGroup>
+
+    <ItemGroup>
+      <Folder Include="Features\CQRS\Feeders\Handlers\Commands\" />
+      <Folder Include="Features\CQRS\Feeders\Handlers\Queries\" />
+      <Folder Include="Features\CQRS\Feeders\Requests\Commands\" />
+      <Folder Include="Features\CQRS\Feeders\Requests\Queries\" />
+      <Folder Include="Features\CQRS\Prosumers\Handlers\Commands\" />
+      <Folder Include="Features\CQRS\Prosumers\Handlers\Queries\" />
+      <Folder Include="Features\CQRS\Prosumers\Requests\Commands\" />
+      <Folder Include="Features\CQRS\Prosumers\Requests\Queries\" />
+      <Folder Include="Features\NotificationHandlers\" />
+    </ItemGroup>
+
+    <ItemGroup>
+      <ProjectReference Include="..\GridMesh.ProsumerRegistry.Domain\GridMesh.ProsumerRegistry.Domain.csproj" />
+    </ItemGroup>
+
+</Project>
